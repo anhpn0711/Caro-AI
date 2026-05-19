@@ -1,0 +1,6 @@
+# Dự án cờ Caro AI sử dụng các thư viện tiêu chuẩn của Python (Standard Library).
+# Không cần cài đặt thêm bất kỳ thư viện bên ngoài nào để chạy game.
+#
+# Yêu cầu hệ thống:
+# - Python 3.x
+# - Thư viện Tkinter (đi kèm sẵn khi cài đặt Python trên Windows/macOS)
