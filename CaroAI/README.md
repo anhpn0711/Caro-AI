@@ -116,7 +116,7 @@ python performance_eval.py
 ### 📈 Kết quả sau khi chạy thành công:
 1. Tiến trình kiểm thử giả lập 5 thế cờ x 3 thuật toán x 3 độ sâu tìm kiếm sẽ được hiển thị trực tiếp trên màn hình terminal.
 2. Một tệp báo cáo chuyên sâu mang tên **`benchmark_report.md`** sẽ tự động được tạo ra tại thư mục gốc của dự án.
-3. Bạn có thể mở trực tiếp tệp **[benchmark_report.md](file:///c:/Users/Admin/Documents/BTL cac mon/BT AI/CaroAI/benchmark_report.md)** lên và nhấn tổ hợp phím `Ctrl + Shift + V` trong VS Code để chiêm ngưỡng bảng so sánh hiệu năng trực quan cùng phần phân tích lý thuyết đầy đủ cho cả 7 câu hỏi thảo luận lý thuyết cờ Caro (có thể sao chép trực tiếp vào báo cáo word/pdf của nhóm).
+3. Bạn có thể mở trực tiếp tệp **benchmark_report.md** lên và nhấn tổ hợp phím `Ctrl + Shift + V` trong VS Code để chiêm ngưỡng bảng so sánh hiệu năng trực quan cùng phần phân tích lý thuyết đầy đủ cho cả 7 câu hỏi thảo luận lý thuyết cờ Caro (có thể sao chép trực tiếp vào báo cáo word/pdf của nhóm).
 
 ---
 

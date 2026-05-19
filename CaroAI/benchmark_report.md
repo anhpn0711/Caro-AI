@@ -26,71 +26,71 @@ Dưới đây là dữ liệu thực nghiệm thu được khi chạy cả 3 thu
 
 | Thuật toán | Độ sâu | Nước đi tốt nhất | Điểm đánh giá | Số trạng thái đã xét (Nodes) | Tỷ lệ cắt tỉa (%) | Thời gian chạy (giây) |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| Minimax (Easy) | 1 | E5 | 50.0 | 2 | Gốc (0%) | 0.00007s |
-| Alpha-Beta (Normal) | 1 | E5 | 50.0 | 2 | **0.0%** | 0.00002s |
-| Alpha-Beta+TT (Hard) | 1 | E5 | 50.0 | 2 | **0.0%** | 0.00003s |
-| Minimax (Easy) | 2 | E5 | -46.0 | 26 | Gốc (0%) | 0.00076s |
-| Alpha-Beta (Normal) | 2 | E5 | -46.0 | 26 | **0.0%** | 0.00067s |
-| Alpha-Beta+TT (Hard) | 2 | E5 | -46.0 | 27 | **-3.8%** | 0.00070s |
-| Minimax (Easy) | 3 | E5 | 9987.0 | 842 | Gốc (0%) | 0.03218s |
-| Alpha-Beta (Normal) | 3 | E5 | 9987.0 | 174 | **79.3%** | 0.01468s |
-| Alpha-Beta+TT (Hard) | 3 | E5 | 9987.0 | 184 | **78.1%** | 0.01404s |
+| Minimax (Easy) | 1 | G7 | 30000.0 | 2 | Gốc (0%) | 0.00077s |
+| Alpha-Beta (Normal) | 1 | G7 | 30000.0 | 2 | **0.0%** | 0.00072s |
+| Alpha-Beta+TT (Hard) | 1 | G7 | 30000.0 | 2 | **0.0%** | 0.00073s |
+| Minimax (Easy) | 2 | G7 | -31470.0 | 26 | Gốc (0%) | 0.02491s |
+| Alpha-Beta (Normal) | 2 | G7 | -31470.0 | 26 | **0.0%** | 0.02439s |
+| Alpha-Beta+TT (Hard) | 2 | G7 | -31470.0 | 30 | **-15.4%** | 0.02473s |
+| Minimax (Easy) | 3 | G7 | 150450.0 | 842 | Gốc (0%) | 1.03280s |
+| Alpha-Beta (Normal) | 3 | G7 | 150450.0 | 142 | **83.1%** | 0.15294s |
+| Alpha-Beta+TT (Hard) | 3 | G7 | 150450.0 | 126 | **85.0%** | 0.13587s |
 
 ### 📍 2. Trạng thái giữa ván (Cân bằng)
 
 | Thuật toán | Độ sâu | Nước đi tốt nhất | Điểm đánh giá | Số trạng thái đã xét (Nodes) | Tỷ lệ cắt tỉa (%) | Thời gian chạy (giây) |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| Minimax (Easy) | 1 | F3 | 107998.0 | 45 | Gốc (0%) | 0.00243s |
-| Alpha-Beta (Normal) | 1 | F3 | 107998.0 | 45 | **0.0%** | 0.00363s |
-| Alpha-Beta+TT (Hard) | 1 | F3 | 107998.0 | 45 | **0.0%** | 0.00420s |
-| Minimax (Easy) | 2 | F3 | -172066.0 | 2,156 | Gốc (0%) | 0.13970s |
-| Alpha-Beta (Normal) | 2 | F3 | -172066.0 | 141 | **93.5%** | 0.03980s |
-| Alpha-Beta+TT (Hard) | 2 | F3 | -172066.0 | 140 | **93.5%** | 0.03886s |
-| Minimax (Easy) | 3 | F3 | 19677971.0 | 67,400 | Gốc (0%) | 5.00004s |
-| Alpha-Beta (Normal) | 3 | F3 | 19677971.0 | 2,754 | **95.9%** | 0.29824s |
-| Alpha-Beta+TT (Hard) | 3 | F3 | 19677971.0 | 2,595 | **96.1%** | 0.20907s |
+| Minimax (Easy) | 1 | F3 | 1708650.0 | 45 | Gốc (0%) | 0.06406s |
+| Alpha-Beta (Normal) | 1 | F3 | 1708650.0 | 45 | **0.0%** | 0.06251s |
+| Alpha-Beta+TT (Hard) | 1 | F3 | 1708650.0 | 47 | **-4.4%** | 0.06356s |
+| Minimax (Easy) | 2 | F3 | -2312580.0 | 2,263 | Gốc (0%) | 3.48876s |
+| Alpha-Beta (Normal) | 2 | F3 | -2312580.0 | 187 | **91.7%** | 0.28431s |
+| Alpha-Beta+TT (Hard) | 2 | F3 | -2312580.0 | 193 | **91.5%** | 0.27974s |
+| Minimax (Easy) | 3 | F7 | -112590.0 | 3,120 | Gốc (0%) | 5.00101s |
+| Alpha-Beta (Normal) | 3 | F3 | 100000000 | 2,575 | **17.5%** | 4.02099s |
+| Alpha-Beta+TT (Hard) | 3 | F3 | 100000000 | 2,510 | **19.6%** | 2.54775s |
 
 ### 📍 3. Trạng thái X sắp thắng (Cần chặn)
 
 | Thuật toán | Độ sâu | Nước đi tốt nhất | Điểm đánh giá | Số trạng thái đã xét (Nodes) | Tỷ lệ cắt tỉa (%) | Thời gian chạy (giây) |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| Minimax (Easy) | 1 | E7 | -81.0 | 41 | Gốc (0%) | 0.00196s |
-| Alpha-Beta (Normal) | 1 | E7 | -81.0 | 41 | **0.0%** | 0.00198s |
-| Alpha-Beta+TT (Hard) | 1 | E7 | -81.0 | 42 | **-2.4%** | 0.00211s |
-| Minimax (Easy) | 2 | E7 | -42079.0 | 1,840 | Gốc (0%) | 0.10780s |
-| Alpha-Beta (Normal) | 2 | E7 | -42079.0 | 167 | **90.9%** | 0.02828s |
-| Alpha-Beta+TT (Hard) | 2 | E7 | -42079.0 | 174 | **90.5%** | 0.03215s |
-| Minimax (Easy) | 3 | E7 | -12049.0 | 73,166 | Gốc (0%) | 5.00005s |
-| Alpha-Beta (Normal) | 3 | E7 | -12049.0 | 1,866 | **97.4%** | 0.18656s |
-| Alpha-Beta+TT (Hard) | 3 | E7 | -12049.0 | 347 | **99.5%** | 0.10229s |
+| Minimax (Easy) | 1 | E7 | -146190.0 | 41 | Gốc (0%) | 0.05159s |
+| Alpha-Beta (Normal) | 1 | E7 | -146190.0 | 41 | **0.0%** | 0.05121s |
+| Alpha-Beta+TT (Hard) | 1 | E7 | -146190.0 | 41 | **0.0%** | 0.05270s |
+| Minimax (Easy) | 2 | E7 | -545910.0 | 1,890 | Gốc (0%) | 2.61542s |
+| Alpha-Beta (Normal) | 2 | E7 | -545910.0 | 124 | **93.4%** | 0.11447s |
+| Alpha-Beta+TT (Hard) | 2 | E7 | -545910.0 | 124 | **93.4%** | 0.11706s |
+| Minimax (Easy) | 3 | E7 | -211890.0 | 3,410 | Gốc (0%) | 5.00132s |
+| Alpha-Beta (Normal) | 3 | E7 | -211890.0 | 258 | **92.4%** | 0.30858s |
+| Alpha-Beta+TT (Hard) | 3 | E7 | -211890.0 | 263 | **92.3%** | 0.32945s |
 
 ### 📍 4. Trạng thái máy O có thể thắng ngay
 
 | Thuật toán | Độ sâu | Nước đi tốt nhất | Điểm đánh giá | Số trạng thái đã xét (Nodes) | Tỷ lệ cắt tỉa (%) | Thời gian chạy (giây) |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| Minimax (Easy) | 1 | C5 | 19700008.0 | 41 | Gốc (0%) | 0.00227s |
-| Alpha-Beta (Normal) | 1 | C5 | 19700008.0 | 41 | **0.0%** | 0.00253s |
-| Alpha-Beta+TT (Hard) | 1 | C5 | 19700008.0 | 42 | **-2.4%** | 0.00230s |
-| Minimax (Easy) | 2 | C5 | 19701008.0 | 1,748 | Gốc (0%) | 0.11148s |
-| Alpha-Beta (Normal) | 2 | C5 | 19701008.0 | 118 | **93.2%** | 0.02640s |
-| Alpha-Beta+TT (Hard) | 2 | C5 | 19701008.0 | 119 | **93.2%** | 0.02671s |
-| Minimax (Easy) | 3 | C5 | 19702008.0 | 66,976 | Gốc (0%) | 5.00005s |
-| Alpha-Beta (Normal) | 3 | C5 | 19702008.0 | 354 | **99.5%** | 0.06137s |
-| Alpha-Beta+TT (Hard) | 3 | C5 | 19702008.0 | 158 | **99.8%** | 0.04854s |
+| Minimax (Easy) | 1 | G5 | 100000000 | 41 | Gốc (0%) | 0.04692s |
+| Alpha-Beta (Normal) | 1 | G5 | 100000000 | 41 | **0.0%** | 0.04940s |
+| Alpha-Beta+TT (Hard) | 1 | G5 | 100000000 | 41 | **0.0%** | 0.05353s |
+| Minimax (Easy) | 2 | G5 | 100001000 | 1,773 | Gốc (0%) | 2.31526s |
+| Alpha-Beta (Normal) | 2 | G5 | 100001000 | 79 | **95.5%** | 0.10174s |
+| Alpha-Beta+TT (Hard) | 2 | G5 | 100001000 | 79 | **95.5%** | 0.13414s |
+| Minimax (Easy) | 3 | G5 | 100002000 | 3,862 | Gốc (0%) | 5.00067s |
+| Alpha-Beta (Normal) | 3 | G5 | 100002000 | 1,928 | **50.1%** | 2.74726s |
+| Alpha-Beta+TT (Hard) | 3 | G5 | 100002000 | 1,928 | **50.1%** | 1.76178s |
 
 ### 📍 5. Trạng thái phức tạp (Nhiều nhánh)
 
 | Thuật toán | Độ sâu | Nước đi tốt nhất | Điểm đánh giá | Số trạng thái đã xét (Nodes) | Tỷ lệ cắt tỉa (%) | Thời gian chạy (giây) |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| Minimax (Easy) | 1 | C3 | 116963.0 | 49 | Gốc (0%) | 0.00358s |
-| Alpha-Beta (Normal) | 1 | C3 | 116963.0 | 49 | **0.0%** | 0.00364s |
-| Alpha-Beta+TT (Hard) | 1 | C3 | 116963.0 | 51 | **-4.1%** | 0.00359s |
-| Minimax (Easy) | 2 | C3 | -183051.0 | 2,480 | Gốc (0%) | 0.21120s |
-| Alpha-Beta (Normal) | 2 | C3 | -183051.0 | 219 | **91.2%** | 0.04462s |
-| Alpha-Beta+TT (Hard) | 2 | C3 | -183051.0 | 206 | **91.7%** | 0.04453s |
-| Minimax (Easy) | 3 | C3 | 19667967.0 | 53,739 | Gốc (0%) | 5.00004s |
-| Alpha-Beta (Normal) | 3 | C3 | 19667967.0 | 3,189 | **94.1%** | 0.39424s |
-| Alpha-Beta+TT (Hard) | 3 | C3 | 19667967.0 | 3,191 | **94.1%** | 0.42672s |
+| Minimax (Easy) | 1 | C3 | 1605710.0 | 49 | Gốc (0%) | 0.06865s |
+| Alpha-Beta (Normal) | 1 | C3 | 1605710.0 | 49 | **0.0%** | 0.06700s |
+| Alpha-Beta+TT (Hard) | 1 | C3 | 1605710.0 | 50 | **-2.0%** | 0.06685s |
+| Minimax (Easy) | 2 | C2 | -3725310.0 | 2,538 | Gốc (0%) | 3.80015s |
+| Alpha-Beta (Normal) | 2 | C2 | -3725310.0 | 357 | **85.9%** | 0.51727s |
+| Alpha-Beta+TT (Hard) | 2 | C2 | -3725310.0 | 377 | **85.1%** | 0.48828s |
+| Minimax (Easy) | 3 | C6 | -1459320.0 | 3,402 | Gốc (0%) | 5.00020s |
+| Alpha-Beta (Normal) | 3 | C3 | 100000000 | 2,843 | **16.4%** | 4.17457s |
+| Alpha-Beta+TT (Hard) | 3 | C3 | 100000000 | 2,976 | **12.5%** | 2.67456s |
 
 
 ---
