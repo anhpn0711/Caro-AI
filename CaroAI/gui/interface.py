@@ -4,9 +4,9 @@ import threading
 import time
 import copy
 
-from core.constants import BOARD_SIZE, EMPTY, X_PIECE, O_PIECE
-from core.ai_engine import AISolver
-from core.gomoku_rules import check_win_logic, is_board_full
+from source_code.constants import BOARD_SIZE, EMPTY, X_PIECE, O_PIECE
+from source_code.ai_engine import AISolver
+from source_code.gomoku_rules import check_win_logic, is_board_full
 from gui.button import create_action_button
 
 class GomokuApp:

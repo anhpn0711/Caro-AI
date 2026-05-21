@@ -2,8 +2,8 @@ import sys
 import time
 import math
 import os
-from core.ai_engine import AISolver
-from core.constants import TEST_CASES, O_PIECE, X_PIECE
+from source_code.ai_engine import AISolver
+from source_code.constants import TEST_CASES, O_PIECE, X_PIECE
 
 # Đảm bảo terminal Windows in được tiếng Việt UTF-8 không bị crash UnicodeEncodeError
 try:
