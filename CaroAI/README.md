@@ -26,7 +26,7 @@ Dự án được tổ chức như sau:
 23021215_23021223_23021241_CaroAI/
 ├── play.py                 # File chính để khởi chạy trò chơi (Giao diện đồ họa)
 ├── performance_eval.py     # Script tự động đo đạc hiệu năng AI
-├── source_code/            # Chứa mã nguồn thuật toán lõi (AI Engine & Game Rules)
+├── core/            # Chứa mã nguồn thuật toán lõi (AI Engine & Game Rules)
 └── gui/                    # Chứa mã nguồn giao diện (Tkinter)
 ```
 
